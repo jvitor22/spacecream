@@ -156,7 +156,7 @@ footer {
 
   header {
     width: 37.7rem;
-    height: 100%;
+    height: 100vh;
     /* height: 72rem; */
   }
 
@@ -172,8 +172,7 @@ footer {
     text-align: center;
   }
 
-  main {
-    border: 1px black solid;
+  .products-cards {
     padding: 6.4rem 8rem 5rem;
 
     display: grid;
@@ -219,13 +218,16 @@ footer {
   }
 
   footer {
-    display: contents;
+    display: block;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
     line-height: 2.8rem;
     text-align: center;
     color: #4A4E69;
+
+    margin: 5rem auto 5rem;
+
   }
 
   footer a {
